@@ -1,4 +1,5 @@
 #!/bin/bash
+#!/usr/bin/expect
 
 ## date format ##
 NOW=$(date +"%F")
