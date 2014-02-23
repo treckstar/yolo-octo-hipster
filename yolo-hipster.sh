@@ -1,6 +1,8 @@
 #!/bin/bash
 ## i'd bin in bash baby
 
+set -e -u
+
 ## percentages are cool
 NOW=$(date +"%F")
 NOWT=$(date +"%T")
@@ -84,3 +86,6 @@ git commit -a -m "${hipster[$rand]}"
 
 ## and its all over. love you guys.
 git push origin master
+
+## bye
+exit 0
