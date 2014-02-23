@@ -1,5 +1,5 @@
 #!/bin/bash
-#!/usr/bin/expect
+
 
 ## date format ##
 NOW=$(date +"%F")
@@ -19,10 +19,3 @@ git add -A
 git commit -a -m "Test"
 
 git push origin master
-
-expect "Username:"
-# Send the username, and then wait for a password prompt.
-send "$GIT_USER\r"
-expect "Password:"
-# Send the password, and then wait for a shell prompt.
-send "$GIT_PASS\r"
