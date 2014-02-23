@@ -73,14 +73,22 @@ hipster[56]="There really ain't no time to waste, really ain't no time to hate. 
 ## people wanna come up n they wanna tell me... smokin crack cocaine better than sensi
 rand=$[ $RANDOM % 56 ]
 
+cd /root/yolo-octo-hipster
+
+## what, what WHAT?!
+/usr/bin/git status
+
 ## i don't like the looks of this
 /usr/bin/git pull origin master
+
+## hungry, happy, sleepy
+/usr/bin/git remote set-url origin git@github.com:treckstar/yolo-octo-hipster.git
 
 ## really wish I could touch myself
 /usr/bin/git add -A
 
 ## ok touching myself now...
-/usr/bin/git commit -a -m "${hipster[$rand]}"
+/usr/bin/git commit -a -m "There really ain't no time to waste, really ain't no time to hate. Ain't got no time to waste, time to hate. Really ain't no time to let the time go away."
 
 ## and its all over. love you guys.
 /usr/bin/git push origin master
