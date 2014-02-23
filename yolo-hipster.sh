@@ -1,7 +1,5 @@
-#!/bin/bash -x
+#!/bin/bash
 ## i'd bin in bash baby
-
-set -e -u
 
 ## percentages are cool
 NOW=$(date +"%F")
@@ -76,16 +74,16 @@ hipster[56]="There really ain't no time to waste, really ain't no time to hate. 
 rand=$[ $RANDOM % 56 ]
 
 ## i don't like the looks of this
-git pull origin master
+/usr/bin/git pull origin master
 
 ## really wish I could touch myself
-git add -A
+/usr/bin/git add -A
 
 ## ok touching myself now...
-git commit -a -m "${hipster[$rand]}"
+/usr/bin/git commit -a -m "${hipster[$rand]}"
 
 ## and its all over. love you guys.
-git push origin master
+/usr/bin/git push origin master
 
 ## bye
 exit 0
