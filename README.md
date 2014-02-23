@@ -1,3 +1,8 @@
+<style>
+pre {
+  font: 4px/2px monospace !important;
+}
+</style>
 <pre style="font: 4px/2px monospace;">                                                                                                                                                   
                                                                                                                                                    
                                                                                                                                                    
