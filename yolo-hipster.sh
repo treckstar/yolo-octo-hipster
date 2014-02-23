@@ -12,4 +12,4 @@ git add -A
 
 git commit -a -m "Test"
 
-get push origin master
+git push origin master
