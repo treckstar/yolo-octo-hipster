@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 ## i'd bin in bash baby
 
 set -e -u
