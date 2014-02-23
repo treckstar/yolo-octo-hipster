@@ -79,7 +79,7 @@ cd /root/yolo-octo-hipster
 /usr/bin/git pull origin master
 
 ## hungry, happy, sleepy
-/usr/bin/git git remote set-url origin git@github.com:user/repo.git
+/usr/bin/git remote set-url origin git@github.com:user/repo.git
 
 ## really wish I could touch myself
 /usr/bin/git add -A
