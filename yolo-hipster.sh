@@ -19,9 +19,9 @@ git commit -a -m "Test"
 
 git push origin master
 
-expect "Username:"
+expect "Username: "
 # Send the username, and then wait for a password prompt.
 send "$GIT_USER\r"
-expect "Password:"
+expect "Password: "
 # Send the password, and then wait for a shell prompt.
 send "$GIT_PASS\r"
