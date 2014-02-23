@@ -71,7 +71,7 @@ hipster[55]="So mister DJ, don't stop the music, I wanna know, Are you feelin' t
 hipster[56]="There really ain't no time to waste, really ain't no time to hate. Ain't got no time to waste, time to hate. Really ain't no time to let the time go away."
 
 ## people wanna come up n they wanna tell me... smokin crack cocaine better than sensi
-rand=$[ $RANDOM %= 56 ]
+rand=$[ $RANDOM % 56 ]
 
 ## i don't like the looks of this
 git pull origin master
