@@ -33,7 +33,7 @@ hipster[17]="My music will go on forever. Maybe it's a fool say that, but when m
 hipster[18]="None but ourselves can free our minds."
 hipster[19]="Rastafari not a culture, it's a reality."
 hipster[20]="Man is a universe within himself."
-hipster[21]="The more people smoke herb, the more Babylon fall."
+hipster[21]="Bert Susanka made me drink."
 hipster[22]="My music fights against the system that teaches to live and die."
 hipster[23]="Tell the children the truth."
 hipster[24]="Bob Marley isn't my name. I don't even know my name yet."
@@ -63,14 +63,14 @@ hipster[47]="Life is one big question when your starin at the cock."
 hipster[48]="If I had a shotgun, know what I'd do, I'd point that shit straight at the sky and shoot heaven on down to you."
 hipster[49]="Ain't nothin wrong, ain't nothing right and still I sit and lie awake all night."
 hipster[50]="But, all the D.J.'s do it, all the D.J.'s use it, I would run, I would switch, but I wanna be the same."
-hipster[51]="I'm too drunk to light the bong. I'm too stoned to write this song."
+hipster[51]="There's a steel train, comin though..."
 hipster[52]="Just let the lovin take a hold cause it will if you let it."
 hipster[53]="I'm funky, not a junky but I know where to get it"
 hipster[54]="No trouble no fuss, .. I know why. It's so nice, I wanna hear the same song twice."
 hipster[55]="So mister DJ, don't stop the music, I wanna know, Are you feelin' the same way too? I wanna rock with you girl, oo-girl."
 hipster[56]="There really ain't no time to waste, really ain't no time to hate. Ain't got no time to waste, time to hate. Really ain't no time to let the time go away."
 
-## people wanna come up n they wanna tell me... smokin crack cocaine better than sensi
+## people wanna come up n they wanna tell me...
 rand=$[ $RANDOM % 56 ]
 
 cd /root/yolo-octo-hipster
@@ -84,7 +84,7 @@ cd /root/yolo-octo-hipster
 ## really wish I could touch myself
 /usr/bin/git add -A
 
-## ok touching myself now...
+## just joking
 /usr/bin/git commit -a -m "${hipster[$rand]}"
 
 ## and its all over. love you guys.
