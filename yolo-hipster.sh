@@ -9,7 +9,7 @@ NOWT=$(date +"%T")
 STUFF=$(</dev/urandom tr -dc '12345!@#$%qwertQWERTasdfgASDFGzxcvbZXCVB' | head -c2048);
 
 ## not sure what is going on...
-echo $STUFF > "/root/yolo-octo-hipster/hipster-files/$NOW-$NOWT"
+echo $STUFF > "/home/bb/yolo-octo-hipster/hipster-files/$NOW-$NOWT"
 
 ## woah now this is getting weird..
 hipster[0]="If you got a gun up in your waist please don't shoot up the place / Cause I see some ladies tonight who should be havin my baby / Bay-bee"
@@ -73,7 +73,7 @@ hipster[56]="There really ain't no time to waste, really ain't no time to hate. 
 ## people wanna come up n they wanna tell me...
 rand=$[ $RANDOM % 56 ]
 
-cd /root/yolo-octo-hipster
+cd /home/bb/yolo-octo-hipster
 
 ## i don't like the looks of this
 /usr/bin/git pull origin master
