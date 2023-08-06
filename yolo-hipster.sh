@@ -62,7 +62,7 @@ hipster[55]="So mister DJ, don't stop the music, I wanna know, Are you feelin' t
 hipster[56]="There really ain't no time to waste, really ain't no time to hate. Ain't got no time to waste, time to hate. Really ain't no time to let the time go away."
 rand=$[ $RANDOM % 56 ]
 cd /home/bb/yolo-octo-hipster
-/usr/bin/git pull origin master
+/usr/bin/git pull origin main
 /usr/bin/git remote set-url origin git@github.com:treckstar/yolo-octo-hipster.git
 /usr/bin/git add .
 /usr/bin/git commit -m "${hipster[$rand]}"
