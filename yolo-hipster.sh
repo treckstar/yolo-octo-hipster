@@ -1,17 +1,8 @@
 #!/bin/bash
-## i'd bin in bash baby
-
-## percentages are cool
 NOW=$(date +"%F")
 NOWT=$(date +"%T")
-
-## hipster stuff
 STUFF=$(</dev/urandom tr -dc '12345!@#$%qwertQWERTasdfgASDFGzxcvbZXCVB' | head -c2048);
-
-## not sure what is going on...
 echo $STUFF > "/home/bb/yolo-octo-hipster/hipster-files/$NOW-$NOWT"
-
-## woah now this is getting weird..
 hipster[0]="If you got a gun up in your waist please don't shoot up the place / Cause I see some ladies tonight who should be havin my baby / Bay-bee"
 hipster[1]="B.I.G P.O.P.P.A"
 hipster[2]="Life is one big road with lots of signs. So when you riding through the ruts, don't complicate your mind. Flee from hate, mischief and jealousy. Don't bury your thoughts, put your vision to reality. Wake Up and Live!"
@@ -69,26 +60,11 @@ hipster[53]="I'm funky, not a junky but I know where to get it"
 hipster[54]="No trouble no fuss, .. I know why. It's so nice, I wanna hear the same song twice."
 hipster[55]="So mister DJ, don't stop the music, I wanna know, Are you feelin' the same way too? I wanna rock with you girl, oo-girl."
 hipster[56]="There really ain't no time to waste, really ain't no time to hate. Ain't got no time to waste, time to hate. Really ain't no time to let the time go away."
-
-## people wanna come up n they wanna tell me...
 rand=$[ $RANDOM % 56 ]
-
 cd /home/bb/yolo-octo-hipster
-
-## i don't like the looks of this
 /usr/bin/git pull origin master
-
-## hungry, happy, sleepy
 /usr/bin/git remote set-url origin git@github.com:treckstar/yolo-octo-hipster.git
-
-## really wish I could touch myself
-/usr/bin/git add -A
-
-## just joking
-/usr/bin/git commit -a -m "${hipster[$rand]}"
-
-## and its all over. love you guys.
-/usr/bin/git push origin master
-
-## bye
+/usr/bin/git add .
+/usr/bin/git commit -m "${hipster[$rand]}"
+/usr/bin/git push origin main
 exit 0
